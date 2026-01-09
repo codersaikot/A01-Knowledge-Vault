@@ -1,0 +1,109 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #111;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 20px 80px;
+}
+
+.nav-logo {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #111;
+  font-size: 15px;
+}
+
+.nav-menu a:hover {
+  text-decoration: underline;
+}
+
+.primary-btn {
+  padding: 10px 18px;
+  background-color: #111;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.primary-btn:hover {
+  background-color: #333;
+}
+/* HERO SECTION */
+
+/* NOTES SECTION */
+.notes {
+  padding: 120px 80px;
+  text-align: center;
+}
+
+.notes-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.notes-subtitle {
+  font-size: 16px;
+  max-width: 700px;
+  margin: 0 auto 60px;
+  color: #444;
+}
+
+.notes-cards {
+  display: flex;
+  gap: 25px;
+}
+
+.note-card {
+  flex: 1;
+  border: 1px solid #eee;
+  padding: 30px 25px;
+  text-align: left;
+}
+
+.note-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.note-card p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.note-icon {
+  width: 45px;
+  height: 45px;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+

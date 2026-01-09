@@ -163,3 +163,31 @@ body {
   color: #111;
 }
 
+/* EARLY ACCESS SECTION */
+.early-access {
+  padding: 120px 80px;
+  text-align: center;
+}
+
+.early-access h2 {
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.early-text {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 35px;
+}
+
+.early-access .primary-btn {
+  font-size: 15px;
+  padding: 12px 24px;
+}
+
+.early-note {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+}
